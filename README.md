@@ -10,37 +10,31 @@ This project represents a complete hotel and restaurant website interface. Users
 
 ## 🗂️ Project Structure
 
-HOTEL-RESTAURANT/
-│── frontend/
-│   ├── booking.html
-│   ├── roombook.html
-│   ├── hotel.html
-│   ├── menu.html
-│   ├── contact.html
-│   ├── faq.html
-│   ├── help.html
-│   ├── terms.html
-│   ├── privacy-policy.html
-│   ├── reservation-policy.html
-│   ├── cancellation-policy.html
-│   └── images/
-│
-│── css/
-│   ├── booking.css
-│   ├── contact.css
-│   ├── hotel.css
-│   ├── menu.css
-│   ├── policy.css
-│   └── roombooking.css
-│
-│── js/
-│   ├── booking.js
-│   ├── contact.js
-│   ├── menu.js
-│   ├── roomsbook.js
-│   └── script.js
-│
-└── README.md
+SANJIVANI
+├── booking.html
+├── roombook.html
+├── hotel.html
+├── menu.html
+├── contact.html
+├── faq.html
+├── help.html
+├── terms.html
+├── privacy-policy.html
+├── reservation-policy.html
+├── cancellation-policy.html
+└── images/
+├── booking.css
+├── contact.css
+├── hotel.css
+├── menu.css
+├── policy.css
+└── roombooking.css
+├── booking.js
+├── contact.js
+├── menu.js
+├── roomsbook.js
+└── script.js
+── README.md
 
 
 ## 🛠️ Technologies Used
@@ -75,13 +69,13 @@ HOTEL-RESTAURANT/
 
 ## 📸 Screenshots
 ### Home Page
-![Home Page](home.jpg)
+![Home Page](home.png)
 
 ### Menu Page
-![about Page](about.jpg)
+![about Page](about.png)
 
 ### Booking Page
-![facilities Page](facilities.jpg)
+![facilities Page](facilities.png)
 
 ## 🙋‍♀️ Author
 
