@@ -69,13 +69,13 @@ SANJIVANI
 
 ## 📸 Screenshots
 ### Home Page
-![Home Page](home.png)
+![Home Page](home.jpg.jpg)
 
 ### Menu Page
-![about Page](about.png)
+![about Page](about.jpg.jpg)
 
 ### Booking Page
-![facilities Page](facilities.png)
+![facilities Page](facilities.jpg.jpg)
 
 ## 🙋‍♀️ Author
 
