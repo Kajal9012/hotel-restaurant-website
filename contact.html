@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Us</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body class="contact-page">
+  <!-- ===== NAVBAR ===== -->
+<header class="navbar">
+
+  <div class="nav-left">
+    <span class="menu-icon" id="openMenu">☰</span>
+
+    
+
+    <div class="dropdown desktop-only">
+      <span class="drop-btn">Pages ▼</span>
+      <div class="drop-menu">
+        <a href="hotel.html">Home</a>
+  <a href="menu.html">Menu</a>
+  
+  <a href="booking.html">Booking Table</a>
+ 
+      </div>
+    </div>
+    <a href="roombook.html" class="desktop-only reservation-link active">Room Booking</a>
+  </div>
+  
+  
+ 
+  <div class="logo">
+    <span class="main-text">SANJIVAHI</span>
+    <span class="sub-text">Hotel & Restaurant</span>
+  </div>
+
+ 
+
+  <div class="nav-right desktop-only">
+   
+    <a href="tel:+3085456743">📞 +30-85456-6743</a>
+  </div>
+
+</header>
+
+<!-- ===== MOBILE MENU ===== -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="close-menu" id="closeMenu">✕</span>
+  <a href="hotel.html">Home</a>
+  <a href="menu.html">Menu</a>
+  
+  <a href="booking.html">Booking Table</a>
+  <a href="roombook.html">Room Booking</a>
+ 
+ 
+   
+    <a href="tel:+3085456743">📞</a>
+</div>
+
+<section class="contact-section">
+  <div class="contact-wrapper">
+
+      <h5 data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">Contact Us</h5>
+      <h1 data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">Get In Touch</h1>
+    <!-- TOP INFO ROW -->
+    <div class="info-row" data-aos="slide-up" data-aos-delay="50" data-aos-duration="1000">
+      <div class="info-card">
+        <i class="fa-solid fa-phone"></i>
+        <span>+91 98765 43210</span>
+      </div>
+
+      <div class="info-card">
+        <i class="fa-brands fa-whatsapp"></i>
+        <a href="https://wa.me/919876543210" target="_blank">WhatsApp</a>
+      </div>
+
+      <div class="info-card">
+        <i class="fa-solid fa-envelope"></i>
+        <span>hotel@email.com</span>
+      </div>
+
+      <div class="info-card">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Main Road, City</span>
+      </div>
+    </div>
+
+    <!-- BOTTOM AREA -->
+    <div class="bottom-grid">
+
+      <!-- MAP -->
+      <div class="map-box" data-aos="flip-left" data-aos-delay="50" data-aos-duration="1000">
+        <iframe 
+          src="https://www.google.com/maps?q=hotel&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- FORM -->
+      <div class="form-box" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000">
+        <h2>Inquiry Form</h2>
+
+         <form id="inquiryForm">
+
+    <label>Your Name <span style="color: red;">*</span></label>
+    <input type="text" id="name" pattern="[A-Za-z ]+" placeholder="Your Name" required>
+
+    <label>Phone Number <span style="color: red;">*</span></label>
+     <div class="phone-group">
+      <select id="countryCode">
+        <option value="">Select Code</option>
+        <option value="+91">🇮🇳 India (+91)</option>
+  <option value="+1">🇺🇸 USA (+1)</option>
+  <option value="+44">🇬🇧 UK (+44)</option>
+  <option value="+61">🇦🇺 Australia (+61)</option>
+  <option value="+81">🇯🇵 Japan (+81)</option>
+  <option value="+49">🇩🇪 Germany (+49)</option>
+  <option value="+33">🇫🇷 France (+33)</option>
+  <option value="+971">🇦🇪 UAE (+971)</option>
+  <option value="+966">🇸🇦 Saudi Arabia (+966)</option>
+  <option value="+92">🇵🇰 Pakistan (+92)</option>
+  <option value="+880">🇧🇩 Bangladesh (+880)</option>
+  <option value="+94">🇱🇰 Sri Lanka (+94)</option>
+  <option value="+86">🇨🇳 China (+86)</option>
+  <option value="+7">🇷🇺 Russia (+7)</option>
+      </select>
+
+      <input type="number" id="phone" placeholder="Phone Number">
+    </div>
+   
+    <label>Your Message <span style="color: red;">*</span></label>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Inquiry</button>
+  </form>
+
+  <p id="formMsg"></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--FOOTER-->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- ABOUT COMPANY -->
+    <div class="footer-box">
+      <h3>About</h3>
+      <p>
+        Sanjivahi Hotel & Restaurant offers luxury stays, fine dining,
+        and exceptional hospitality for a comfortable and memorable experience.
+      </p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">Rooms & Suites</a>
+      <a href="#">Restaurant</a>
+      <a href="#">Gallery</a>
+      <a href="#">Reservation</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- SUPPORT / HELP -->
+    <div class="footer-box">
+      <h3>Support</h3>
+      <a href="privacy-policy.html">Privacy Policy</a>
+<a href="faq.html">FAQs</a>
+
+<a href="help.html">Help & Support</a>
+<a href="reservation-policy.html">Reservation Policy</a>
+<a href="cancellation-policy.html">Cancellation Policy</a>
+<a href="terms.html">Website Terms</a>
+
+    </div>
+
+    <!-- CONTACT + NEWSLETTER -->
+    <div class="footer-box">
+      <h3>Contact Us</h3>
+
+      <p><i class="fa fa-map-marker-alt"></i> 123 Street, New York, USA</p>
+      <p><i class="fa fa-phone-alt"></i> +30 85456 6743</p>
+      <p><i class="fa fa-envelope"></i> info@sanjivahihotel.com</p>
+
+      <div class="newsletter">
+        <input type="email" placeholder="Your email address">
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>© 2026 Sanjivani Hotel & Restaurant. All Rights Reserved. | Designed by Kajal Sorate</p>
+
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Help</a>
+      <a href="#">FAQs</a>
+      <a href="#">Sitemap</a>
+    </div>
+  </div>
+</footer>
+<script src="contact.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    once: false,  // Important: repeat animation on scroll up
+  });
+</script>
+
+</body>
+</html>

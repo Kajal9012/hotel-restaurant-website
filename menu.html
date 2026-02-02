@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+<header class="navbar">
+
+  <div class="nav-left">
+    <span class="menu-icon" id="openMenu">☰</span>
+
+    
+
+    <div class="dropdown desktop-only">
+      <span class="drop-btn">Pages ▼</span>
+      <div class="drop-menu">
+        <a href="hotel.html">Home</a>
+  <a href="roombook.html">Room Booking</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <a href="booking.html" class="desktop-only reservation-link active">Booking Table</a>
+  </div>
+  
+  
+ 
+  <div class="logo">
+    <span class="main-text">SANJIVAHI</span>
+    <span class="sub-text">Hotel & Restaurant</span>
+  </div>
+
+ 
+
+  <div class="nav-right desktop-only">
+   
+    <a href="tel:+3085456743">📞 +30-85456-6743</a>
+  </div>
+
+  <button id="topBtn" title="Go to top">
+  ↑
+</button>
+
+</header>
+
+<!-- ===== MOBILE MENU ===== -->
+<div class="mobile-menu" id="mobileMenu">
+  <span class="close-menu" id="closeMenu">✕</span>
+  <a href="hotel.html">Home</a>
+  <a href="booking.html">Booking Table</a>
+  <a href="roombook.html">Room Booking</a>
+        <a href="contact.html">Contact</a>
+ 
+   
+    <a href="tel:+3085456743">📞</a>
+</div>
+
+    <section class="menu-section">
+  <div class="menu-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+    <h1>Most Popular Items</h1>
+       <h5>Food Menu</h5>
+  </div>
+
+  <!-- TABS -->
+  <ul class="menu-tabs"data-aos="slide-up" data-aos-delay="50" data-aos-duration="1000">
+    <li class="tab active" data-target="breakfast">☕ Breakfast</li>
+    <li class="tab" data-target="lunch">🍔 Lunch</li>
+    <li class="tab" data-target="dinner">🍽 Dinner</li>
+  </ul>
+
+  <div class="menu-content"data-aos="slide-up" data-aos-delay="50" data-aos-duration="1000">
+
+    <!-- 🔹 Breakfast -->
+    <div class="menu-pane active" id="breakfast">
+
+      <div class="menu-item">
+        <img src="poha.jpg">
+        <div>
+          <h4>Poha <span>$80</span></h4>
+          <p>Light & Healthy Poha<br>Classic Indian Breakfast Poha </p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="dosa.jpg">
+        <div>
+          <h4>Dosa<span>$60</span></h4>
+          <p>Crispy South Indian Dosa<br>Hot & Fresh Plain Dosa</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Egg.jpg">
+        <div>
+          <h4>Egg <span>$75</span></h4>
+          <p>Protein-Rich Egg Breakfast<br>Healthy & Power-Packed Egg</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="oatmeal.jpg">
+        <div>
+          <h4>Oatmeal <span>$50</span></h4>
+          <p>Healthy Oatmeal Breakfast<br>Start Your Day the Healthy Way</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 🔹 Lunch -->
+    <div class="menu-pane" id="lunch">
+
+      <div class="menu-item">
+        <img src="sandwich.jpg">
+        <div>
+          <h4>Sandwich <span>$115</span></h4>
+          <p>Fresh & Tasty Veg Sandwich <br>Light, Healthy & Yummy Sandwich</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="noodle.jpg">
+        <div>
+          <h4>Noodles <span>$95</span></h4>
+          <p>Hot & Delicious Veg Noodles <br>Quick Bite Veg Noodles</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="salads.jpg">
+        <div>
+          <h4>Salad<span>$150</span></h4>
+          <p>Fresh & Healthy Veg Salad <br>Crunchy, Clean & Green</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="vegetarian.jpg">
+        <div>
+          <h4>Vegetarian<span>$90</span></h4>
+          <p>Wholesome Vegetarian Lunch<br>Healthy Veg Lunch Options</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 🔹 Dinner -->
+    <div class="menu-pane" id="dinner">
+
+      <div class="menu-item">
+        <img src="chicken.jpg">
+        <div>
+          <h4>Chicken <span>$220</span></h4>
+          <p>Delicious Chicken Dinner<br>Rich & Flavorful Chicken Curry</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="chole_masala.jpg">
+        <div>
+          <h4>Chole Masala <span>$240</span></h4>
+          <p>Punjabi Style Chole Masala<br>Spicy & Tasty Chole Masala</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="veg.jpg">
+        <div>
+          <h4>Vegetarian <span>$190</span></h4>
+          <p>Healthy & Homely Veg Dinner<br>Simple Veg Dinner Delight</p>
+        </div>
+      </div>
+
+      <div class="menu-item">
+        <img src="Butter-Chicken-Biryani.png">
+        <div>
+          <h4>Butter Chicken Biryani <span>$450</span></h4>
+          <p>Rich & Creamy Butter Chicken<br>Classic Butter Chicken Delight</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+  <section class="team-section">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000">
+      <h1>Our Master Chefs</h1>
+      <h5>Team Members</h5>
+    </div>
+
+    <div class="team-grid"  data-aos="slide-up" data-aos-delay="50" data-aos-duration="1000">
+
+      <div class="team-card">
+        <div class="team-img">
+          <img src="Sanjeev-Kapoor.jpg" alt="">
+        </div>
+        <h4>Sanjeev Kapoor</h4>
+        <p>Head Chef</p>
+        <div class="team-social" >
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="team-card" >
+        <div class="team-img">
+          <img src="manisha.jpg" alt="">
+        </div>
+        <h4>Manisha Sharma</h4>
+        <p>Senior Chef</p>
+        <div class="team-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="team-card" data-aos="slide-up" data-aos-delay="20" data-aos-duration="1000">
+        <div class="team-img">
+          <img src="ranveer-brar.jpg" alt="">
+        </div>
+        <h4>Ranveer Brar</h4>
+        <p>Junior Chef</p>
+        <div class="team-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="team-card">
+        <div class="team-img">
+          <img src="garima-arora.jpg" alt="">
+        </div>
+        <h4>Garima Arora</h4>
+        <p>Pastry Chef</p>
+        <div class="team-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--FOOTER-->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- ABOUT COMPANY -->
+    <div class="footer-box">
+      <h3>About</h3>
+      <p>
+        Sanjivahi Hotel & Restaurant offers luxury stays, fine dining,
+        and exceptional hospitality for a comfortable and memorable experience.
+      </p>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <a href="#">Home</a>
+      <a href="#">Rooms & Suites</a>
+      <a href="#">Restaurant</a>
+      <a href="#">Gallery</a>
+      <a href="#">Reservation</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <!-- SUPPORT / HELP -->
+    <div class="footer-box">
+      <h3>Support</h3>
+      <a href="privacy-policy.html">Privacy Policy</a>
+<a href="faq.html">FAQs</a>
+
+<a href="help.html">Help & Support</a>
+<a href="reservation-policy.html">Reservation Policy</a>
+<a href="cancellation-policy.html">Cancellation Policy</a>
+<a href="terms.html">Website Terms</a>
+
+    </div>
+
+    <!-- CONTACT + NEWSLETTER -->
+    <div class="footer-box">
+      <h3>Contact Us</h3>
+
+      <p><i class="fa fa-map-marker-alt"></i> 123 Street, New York, USA</p>
+      <p><i class="fa fa-phone-alt"></i> +30 85456 6743</p>
+      <p><i class="fa fa-envelope"></i> info@sanjivahihotel.com</p>
+
+      <div class="newsletter">
+        <input type="email" placeholder="Your email address">
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>© 2026 Sanjivani Hotel & Restaurant. All Rights Reserved. | Designed by Kajal Sorate</p>
+
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Help</a>
+      <a href="#">FAQs</a>
+      <a href="#">Sitemap</a>
+    </div>
+  </div>
+</footer>
+<script src="menu.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    once: false,  // Important: repeat animation on scroll up
+  });
+</script>
+
+
+</body>
+</html>

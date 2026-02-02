@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  margin: 0;
+  background: #f2f2f2;
+}
+
+/* MAIN CONTAINER */
+.booking-container{
+  max-width: 950px;
+  margin: 60px auto;
+  display: flex;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* IMAGE */
+.booking-image{
+  width: 45%;
+}
+
+.booking-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* FORM */
+.booking-form{
+  width: 55%;
+  padding: 35px;
+  position: relative;
+}
+
+.close-btn{
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+h2{
+  margin-bottom: 20px;
+  color: hwb(0 0% 100% / 0.986);
+}
+
+label{
+  display: block;
+  margin-top: 10px;
+}
+
+label span{
+  color: red;
+}
+
+input, select{
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.dates{
+  display: flex;
+  gap: 10px;
+}
+
+button{
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background:  #fea116;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover{
+  background:  #fea116;
+}
+
+/* MOBILE */
+@media(max-width:768px){
+  .booking-container{
+    flex-direction: column;
+  }
+
+  .booking-image{
+    height: 220px;
+    width: 100%;
+  }
+
+  .booking-form{
+    width: 100%;
+  }
+}

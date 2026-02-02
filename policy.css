@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f6fa;
+}
+
+.policy-section {
+   max-width: 900px; /* readable width */ 
+  margin: 120px auto 80px; 
+  padding: 0 20px; 
+}
+
+.policy-wrapper {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+
+.policy-wrapper h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #0f172b;
+}
+
+.updated {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.policy-wrapper h2 {
+  margin-top: 25px;
+  font-size: 22px;
+  color: #fea116;
+}
+
+.policy-wrapper p,
+.policy-wrapper li {
+  margin-top: 10px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.policy-wrapper ul {
+  margin-left: 20px;
+}
+#scrollTop {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background: #fea116;
+  color: #000;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+  z-index: 999;
+}
+
+#scrollTop.show {
+  display: block;
+}
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  #scrollTop {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+}
+
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+
+  .policy-section {
+    margin: 90px auto 60px;
+    padding: 0 15px;
+  }
+
+  .policy-wrapper h1 {
+    font-size: 26px;
+  }
+
+  .policy-wrapper h2 {
+    font-size: 18px;
+  }
+
+  .policy-wrapper p,
+  .policy-wrapper li {
+    font-size: 14px;
+  }
+}

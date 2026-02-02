@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy | Sanjivahi Hotel & Restaurant</title>
+  <link rel="stylesheet" href="policy.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<section class="policy-section">
+  <div class="policy-wrapper">
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: January 2025</p>
+
+    <h2>1. Introduction</h2>
+    <p>
+      Sanjivahi Hotel & Restaurant respects your privacy and is committed
+      to protecting your personal information.
+    </p>
+
+    <h2>2. Information We Collect</h2>
+    <ul>
+      <li>Name, phone number, email address</li>
+      <li>Reservation & inquiry details</li>
+      <li>Restaurant booking information</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>
+      Your data is used only for booking confirmation, customer support,
+      and service improvement.
+    </p>
+
+    <h2>4. Data Security</h2>
+    <p>
+      We take appropriate security measures to protect your personal data.
+    </p>
+
+    <h2>5. Contact Us</h2>
+    <p>
+      📧 info@sanjivahi.com <br>
+      📞 +91 98765 43210
+    </p>
+
+  </div>
+</section>
+<button id="scrollTop">↑</button>
+<p>© <span id="year"></span> Sanjivahi Hotel & Restaurant</p>
+
+<script>
+    // Smooth page load
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.add("loaded");
+});
+
+const scrollBtn = document.getElementById("scrollTop");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    scrollBtn.classList.add("show");
+  } else {
+    scrollBtn.classList.remove("show");
+  }
+});
+
+scrollBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+// Footer year auto
+const yearSpan = document.getElementById("year");
+if (yearSpan) {
+  yearSpan.textContent = new Date().getFullYear();
+}
+
+</script>
+</body>
+</html>

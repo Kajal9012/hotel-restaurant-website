@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Room Booking | Sanjivani Hotel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="roombooking.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="booking-container"data-aos="fade-down" data-aos-delay="50" data-aos-duration="1000">
+
+  <!-- IMAGE SIDE -->
+  <div class="booking-image">
+    <img src="Theme Suites.avif" alt="Luxury Room" data-aos="flip-right" data-aos-delay="50" data-aos-duration="1000">
+  </div>
+
+  <!-- FORM SIDE -->
+  <div class="booking-form">
+
+<span class="close-btn" onclick="goHome()">×</span>
+
+
+    <h2>Room Booking</h2>
+
+    <form>
+
+      <label>Full Name <span>*</span></label>
+      <input type="text" required>
+
+      <label>Email <span>*</span></label>
+      <input type="email" required>
+
+      <label>Country <span>*</span></label>
+      <select required>
+        <option value="">Select Country</option>
+        <option>India</option>
+        <option>USA</option>
+        <option>UK</option>
+        <option>Australia</option>
+      </select>
+
+      <label>Mobile Number <span>*</span></label>
+      <input type="tel" pattern="[0-9]{10}" maxlength="10" required>
+
+      <label>Room Type <span>*</span></label>
+      <select required>
+        <option value="">Select Room</option>
+        <option>Single</option>
+        <option>Double</option>
+        <option>Deluxe</option>
+        <option>Luxury Suite</option>
+      </select>
+
+      <label>Check-in / Check-out <span>*</span></label>
+      <div class="dates">
+        <input type="date" required>
+        <input type="date" required>
+      </div>
+
+      <label>Guests <span>*</span></label>
+      <input type="number" min="1" max="10" required>
+
+      <button type="submit">Book Now</button>
+
+    </form>
+  </div>
+
+</div>
+<script src="roombook.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+    once: false,  // Important: repeat animation on scroll up
+  });
+</script>
+
+
+</body>
+</html>
